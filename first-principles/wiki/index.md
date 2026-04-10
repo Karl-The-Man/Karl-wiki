@@ -9,20 +9,27 @@ updated: 2026-04-10
 
 ## Source Summaries
 - [[Elon Musk on First Principles]] — Compiled Musk quotes on physics-based reasoning, first principles, truth-seeking, and manufacturing heuristics (2026-04-10)
+- [[Jensen Huang on First Principles Thinking]] — Stanford GSB interview on reinvention, EOIFS, organizational design, and generative AI reasoning (2026-04-10)
 
 ## Entities
 - [[Elon Musk]] — CEO of SpaceX, Tesla, The Boring Company; physicist-entrepreneur | sources: 1
+- [[Jensen Huang]] — Founder and CEO of NVIDIA; first-principles practitioner in tech strategy and org design | sources: 1
+- [[NVIDIA]] — GPU/accelerated computing company; case study for first-principles strategy and organizational design | sources: 1
 - [[SpaceX]] — Aerospace company; first-principles cost analysis of rocketry | sources: 1
 - [[Tesla]] — EV/energy company; battery cost breakthrough via material decomposition | sources: 1
 - [[The Boring Company]] — Tunneling company; case study for thinking in limits | sources: 1
+- [[Stanford GSB]] — Host of View From The Top speaker series | sources: 1
 - [[Douglas Adams]] — Author of Hitchhiker's Guide; "the universe is the answer" | sources: 1
 
 ## Concepts
-- [[First Principles Thinking]] — Decompose to fundamental truths, reason upward | sources: 1
-- [[Reasoning by Analogy]] — Default reasoning mode; copying precedent; yields only incremental gains | sources: 1
+- [[First Principles Thinking]] — Decompose to fundamental truths, reason upward; reinvent given current conditions | sources: 2
+- [[Reasoning by Analogy]] — Default reasoning mode; copying precedent; yields only incremental gains | sources: 2
+- [[Obsession with Truth]] — Epistemic commitment to what is actually true; guards against wishful thinking | sources: 2
+- [[EOIFS]] — Early Indicators of Future Success; decouple evidence of direction from financial results | sources: 1
+- [[Organizational First Principles]] — Design company structure from fundamentals, not convention | sources: 1
+- [[Gut-Check Resilience]] — Return to core beliefs in crisis; check if fundamentals changed | sources: 1
 - [[Idiot Index]] — Ratio of finished-product cost to raw-material cost; manufacturing diagnostic | sources: 1
 - [[Thinking in Limits]] — Scale variables to extremes to reveal hidden possibilities | sources: 1
-- [[Obsession with Truth]] — Epistemic commitment to what is actually true; guards against wishful thinking | sources: 1
 - [[Wishful Thinking]] — Cognitive bias; believing what you wish were true | sources: 1
 - [[Semantic Tree of Knowledge]] — Learn trunk (fundamentals) before leaves (details) | sources: 1
 - [[Philosophy of Curiosity]] — Musk's foundational philosophy; expand consciousness to understand the universe | sources: 1

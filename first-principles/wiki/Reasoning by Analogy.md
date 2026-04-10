@@ -3,7 +3,7 @@ type: concept
 title: Reasoning by Analogy
 created: 2026-04-10
 updated: 2026-04-10
-sources: [elon-musk-on-first-principles.pdf]
+sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md]
 tags: [epistemology, reasoning, cognitive-bias]
 ---
 
@@ -48,3 +48,9 @@ Musk acknowledges analogy-based reasoning is cognitively efficient: "In most of 
 - "Nobody wants a car. Horses are great; we're used to them." (Historical analogue Musk invokes to show the absurdity of the pattern.)
 
 *(elon-musk-on-first-principles.pdf)*
+
+## Huang's Nuance: Learn, Then Discard
+
+[[Jensen Huang]] adds an important twist: he *does* learn how something was done before — but then deliberately discards the inherited constraints. "You can't learn how somebody else does something and do it exactly the same way and hope to have a different outcome. But you can learn how something can be done and then go back to first principles." This is subtly different from Musk's framing, which emphasizes ignoring precedent from the start. Huang treats precedent as useful *input* that must not become a *ceiling*. *(Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md)*
+
+He also identifies analogical reasoning in organizational design — copying conventional org charts is reasoning by analogy applied to management. See [[Organizational First Principles]].

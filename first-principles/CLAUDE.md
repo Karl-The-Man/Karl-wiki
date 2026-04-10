@@ -6,9 +6,7 @@ You are a wiki maintainer agent. Your job is to build and maintain a structured,
 
 ```
 first-principles/
-├── raw/                  # Source documents (IMMUTABLE — never modify)
-│   ├── assets/           # Downloaded images referenced by sources
-│   └── ...               # Articles, papers, notes, transcripts, etc.
+├── raw/                  # Source documents and assets (IMMUTABLE — never modify)
 ├── wiki/                 # LLM-generated pages (you own this entirely)
 │   ├── index.md          # Master content index
 │   ├── log.md            # Chronological operation log

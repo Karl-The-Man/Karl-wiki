@@ -3,7 +3,7 @@ type: concept
 title: First Principles Thinking
 created: 2026-04-10
 updated: 2026-04-10
-sources: [elon-musk-on-first-principles.pdf]
+sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md]
 tags: [epistemology, reasoning, physics, problem-solving]
 ---
 
@@ -36,9 +36,23 @@ Raw materials for a rocket (aluminum, titanium, copper, carbon fiber) cost 1–2
 ### Tunneling at [[The Boring Company]]
 Applied [[Thinking in Limits]]: shrink tunnel diameter from 26–28 ft to 12 ft (area drops 4x), make the boring machine tunnel and reinforce simultaneously (2x), increase machine power toward thermal limits (2–5x). Combined: 8–40x cost reduction from current ~$1B/mile. *(elon-musk-on-first-principles.pdf)*
 
+## Huang's Formulation: Reinvention Prompt
+
+[[Jensen Huang]] frames first-principles thinking as a reinvention practice rather than a decomposition exercise. His method:
+
+1. **Learn how something was done** — study the existing approach (read the textbook, the archive paper).
+2. **Reset to current conditions** — "Given the conditions today, given my motivation, given the instruments, the tools, given how things have changed..."
+3. **Reinvent from scratch** — "How would I redo this? How would I reinvent this whole thing?"
+
+This is applied continuously at [[NVIDIA]]: "Always cause yourself to go back to first principles... it creates lots and lots of opportunities." Huang extends this beyond engineering to [[Organizational First Principles|organizational design]], [[EOIFS|metrics]], and reasoning about [[Generative AI]]. *(Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md)*
+
+Key difference from Musk's formulation: Huang emphasizes that you *should* learn from precedent first — the insight comes from then discarding the inherited constraints and rebuilding with today's tools. Musk emphasizes starting from axioms and reasoning up. Both arrive at the same place: reject convention as a ceiling.
+
 ## When to Use (and When Not To)
 
 Musk acknowledges that first-principles reasoning is cognitively expensive and unnecessary for routine decisions. [[Reasoning by Analogy]] is fine for daily life—"otherwise, mentally, you wouldn't be able to get through the day." First-principles thinking is reserved for **important, novel problems** where convention or precedent would constrain the solution space. *(elon-musk-on-first-principles.pdf)*
+
+Huang applies it more pervasively — he describes resetting the company to first principles regularly as conditions change: "The world has changed. How we think about software today, how we think about computers today, just always cause yourself to go back to first principles." For Huang, the trigger is change in conditions, not just novelty of the problem. *(Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md)*
 
 ## Related Concepts
 
@@ -48,3 +62,6 @@ Musk acknowledges that first-principles reasoning is cognitively expensive and u
 - [[Obsession with Truth]] — the epistemic disposition that motivates first-principles thinking
 - [[Wishful Thinking]] — the cognitive bias it guards against
 - [[Semantic Tree of Knowledge]] — Musk's metaphor for structuring knowledge to support first-principles reasoning
+- [[EOIFS]] — first-principles approach to metrics (Huang)
+- [[Organizational First Principles]] — applying the method to company design (Huang)
+- [[Gut-Check Resilience]] — applying the method to crisis navigation (Huang)

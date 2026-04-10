@@ -3,7 +3,7 @@ type: concept
 title: Obsession with Truth
 created: 2026-04-10
 updated: 2026-04-10
-sources: [elon-musk-on-first-principles.pdf]
+sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md]
 tags: [epistemology, decision-making, cognitive-bias]
 ---
 
@@ -44,8 +44,13 @@ Rather than claiming certainty, Musk frames the goal as continuous error reducti
 
 This maps to a roughly Bayesian disposition: "Believe things proportionate to the evidence. Not inversely proportional to the evidence." *(elon-musk-on-first-principles.pdf)*
 
+## Huang's Version: "Did Physics Change?"
+
+[[Jensen Huang]] expresses the same disposition differently. When [[NVIDIA]] lost 80% of its market cap, his crisis method was to return to fundamentals: "Did physics change? Did gravity change? Did all of the things that we assumed that we believed that led to our decision, did any of those things change?" If the axioms hold, the strategy holds — regardless of market sentiment. This is truth-obsession applied to resilience: feelings and stock prices are not evidence; only changes to the underlying truths matter. See [[Gut-Check Resilience]]. *(Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md)*
+
 ## Related Concepts
 
 - [[First Principles Thinking]] — the method that operationalizes truth-seeking
 - [[Wishful Thinking]] — the primary obstacle
 - [[Reasoning by Analogy]] — substitutes social proof for independent truth verification
+- [[Gut-Check Resilience]] — truth-anchored crisis navigation (Huang)
