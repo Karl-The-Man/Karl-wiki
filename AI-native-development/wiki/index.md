@@ -3,6 +3,7 @@
 ## Source Summaries
 - [[Building Claude Code with Boris Cherny]] — Pragmatic Engineer podcast interview with Claude Code's creator on AI-native workflows, architecture, safety, and the future of engineering (2026-04-10)
 - [[Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI]] — No Priors podcast on code agents, AutoResearch, claws, jaggedness, and the digital-to-physical trajectory (2026-04-11)
+- [[From Hierarchy to Intelligence]] — Jack Dorsey's manifesto on replacing organizational hierarchy with AI at Block (2026-04-11)
 
 ## Entities
 - [[Andrej Karpathy]] — Independent AI researcher, educator, creator of AutoResearch and NanoGPT | sources: 1
@@ -17,9 +18,11 @@
 - [[Claude Co-Work]] — Agentic tool for non-engineers, runs Claude Code in a VM | sources: 1
 - [[Agent Teams]] — Anthropic's swarm implementation with uncorrelated context windows | sources: 2
 - [[Claude Agent SDK]] — SDK powering Claude Code, used in CI for automated code review | sources: 1
+- [[Jack Dorsey]] — Co-founder of Block, author of "From Hierarchy to Intelligence" | sources: 1
+- [[Block]] — Fintech company attempting to replace hierarchy with AI-coordinated intelligence | sources: 1
 
 ## Concepts
-- [[AI-Native Workflow]] — Parallel agents, plan-first, phone-based coding, zero hand-written code | sources: 2
+- [[AI-Native Workflow]] — Parallel agents, plan-first, phone-based coding, zero hand-written code; extends to organizational design | sources: 3
 - [[AI Psychosis]] — The overwhelming state of possibility awareness with agents | sources: 1
 - [[Agentic Search]] — Replacing RAG with grep/glob driven by the model | sources: 1
 - [[Agentic Web]] — Agent-first internet: APIs over apps, agents as the customer | sources: 1
@@ -44,6 +47,10 @@
 - [[Token Throughput]] — The new productivity metric: tokens commanded per second | sources: 1
 - [[Uncorrelated Context Windows]] — Sub-agents with fresh context yield better results | sources: 1
 - [[Understand the Layer Under]] — Always understand the abstraction layer below yours | sources: 1
+- [[Company as Intelligence]] — Organizing a company as a unified AI intelligence system, not a hierarchy | sources: 1
+- [[World Model (Organizational)]] — AI-maintained representation of company operations and customers | sources: 1
+- [[Intelligence Layer]] — AI system that composes capabilities into proactive customer solutions | sources: 1
+- [[Hierarchy as Information Routing]] — Hierarchy as a 2,000-year-old information routing protocol constrained by human span of control | sources: 1
 
 ## Comparisons
 

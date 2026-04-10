@@ -3,7 +3,7 @@ type: overview
 title: AI-Native Development — Overview
 created: 2026-04-10
 updated: 2026-04-11
-sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, From Hierarchy to Intelligence.md]
 tags: [overview]
 ---
 
@@ -13,13 +13,15 @@ This wiki tracks the emerging landscape of **AI-native development** — buildin
 
 ## Current State
 
-The wiki draws on two deeply sourced interviews:
+The wiki draws on three sources:
 
 1. **[[Building Claude Code with Boris Cherny]]** — Pragmatic Engineer podcast with the creator of [[Claude Code]] at [[Anthropic]]. The most detailed first-person account of a fully AI-native engineering workflow inside a frontier lab — including concrete numbers (80% of code AI-written, 20–30 PRs/day, zero hand-written code) and architectural decisions (abandoning RAG for [[Agentic Search]], [[Prototyping Over PRDs]]).
 
 2. **[[Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI]]** — No Priors podcast with one of the most credible voices in AI. Provides independent external validation of the AI-native workflow pattern, plus original frameworks: [[AutoResearch]] (autonomous ML experimentation), [[Claws]] (persistent autonomous agents), [[Token Throughput]] as the new productivity metric, and a vision for the trajectory from digital to physical AI.
 
-The two sources are strikingly convergent: Boris Cherny (inside Anthropic) and Andrej Karpathy (independent, using multiple tools) independently describe the same fundamental shift — humans no longer write code; they orchestrate agents in parallel.
+3. **[[From Hierarchy to Intelligence]]** — [[Jack Dorsey]]'s manifesto on replacing organizational hierarchy with AI at [[Block]]. Extends the AI-native thesis from individual developer workflow to company-wide organizational design. Argues hierarchy is an [[Hierarchy as Information Routing|information routing protocol]] constrained by human span-of-control limits for 2,000 years, and that AI can finally break this constraint through [[World Model (Organizational)|world models]] and an [[Intelligence Layer]].
+
+The first two sources are strikingly convergent: Boris Cherny (inside Anthropic) and Andrej Karpathy (independent, using multiple tools) independently describe the same fundamental shift — humans no longer write code; they orchestrate agents in parallel. The third source extends this pattern to the organizational level: if AI can replace individual code authorship, it can also replace the information routing that justifies management hierarchy.
 
 ## Key Themes
 
@@ -50,6 +52,9 @@ Both sources agree: strong opinions about languages and frameworks are losing va
 ### Education is being redirected through agents
 [[Education Through Agents]]: teachers explain to agents; agents explain to humans. Documentation shifts from HTML for humans to markdown for agents. "I'm not explaining to people anymore."
 
+### From individual workflow to organizational design
+[[Jack Dorsey]]'s [[From Hierarchy to Intelligence]] extends the AI-native thesis from how individuals work to how companies are structured. [[Block]] is attempting to replace the management hierarchy — an [[Hierarchy as Information Routing|information routing protocol]] unchanged for 2,000 years — with a [[Company as Intelligence|company organized as an intelligence]]. Two [[World Model (Organizational)|world models]] (company + customer) replace managers' contextual knowledge. An [[Intelligence Layer]] composes atomic capabilities into proactive customer solutions, replacing the PM-driven roadmap. Three roles (ICs, DRIs, player-coaches) replace the traditional management pyramid. This is the logical extension of the workflow revolution: if AI can replace code authorship, it can replace the coordination layer too.
+
 ## Key Questions to Explore
 
 - How does the AI-native workflow generalize to organizations outside AI labs and beyond power users like Karpathy?
@@ -59,13 +64,16 @@ Both sources agree: strong opinions about languages and frameworks are losing va
 - What is the right architecture for [[Claws]] — memory systems, personality, interface?
 - How does [[Jaggedness]] evolve as models improve — does it narrow or persist?
 - When does [[Model Speciation]] actually happen at scale?
+- Can [[Block]]'s [[Company as Intelligence]] model survive contact with reality? What breaks first?
+- Does the organizational intelligence model generalize beyond fintech, where transaction data provides uniquely rich signal?
+- What governance layer prevents the [[Intelligence Layer]] from composing harmful or unwanted solutions?
 
 ## Thesis (Evolving)
 
-AI-native development is not an incremental improvement to existing workflows — it's a qualitative shift in what developers do. The human role moves from code authorship to direction, judgment, and review. This shift is now confirmed by multiple independent sources: an Anthropic insider (Boris Cherny) and an independent researcher using multiple tools (Andrej Karpathy).
+AI-native development is not an incremental improvement to existing workflows — it's a qualitative shift in what developers do, and ultimately in how companies are organized. The human role moves from code authorship to direction, judgment, and review. This shift is now confirmed by multiple independent sources: an Anthropic insider (Boris Cherny), an independent researcher (Andrej Karpathy), and a CEO redesigning a major company around it (Jack Dorsey/Block).
 
-The next frontier is **persistence and autonomy**: [[Claws]] that loop without human involvement, [[AutoResearch]] that optimizes overnight, agents that manage physical infrastructure. The tools are simple (grep, not RAG; loops, not pipelines); the safety is layered (Swiss cheese); the culture is experimental (prototypes, not PRDs).
+The pattern operates at two levels. At the **individual level**: [[Claws]] that loop without human involvement, [[AutoResearch]] that optimizes overnight, agents that manage physical infrastructure. The tools are simple (grep, not RAG; loops, not pipelines); the safety is layered (Swiss cheese); the culture is experimental (prototypes, not PRDs). At the **organizational level**: [[Block]] is attempting to replace the management hierarchy itself with AI — [[World Model (Organizational)|world models]] that replace managers' contextual knowledge, an [[Intelligence Layer]] that composes solutions without PM roadmaps, and a flat structure of three roles with no permanent middle management.
 
-The economic trajectory follows [[Jevons Paradox]]: cheaper software production creates more demand, not less. The capability trajectory follows [[Digital-Physical Interface]]: digital first (fast), then sensors/actuators (medium), then full physical (slow, big). The intelligence trajectory faces [[Jaggedness]]: brilliant on-rails, mediocre off-rails, with [[Model Speciation]] as the potential structural response.
+The economic trajectory follows [[Jevons Paradox]]: cheaper software production creates more demand, not less. The capability trajectory follows [[Digital-Physical Interface]]: digital first (fast), then sensors/actuators (medium), then full physical (slow, big). The intelligence trajectory faces [[Jaggedness]]: brilliant on-rails, mediocre off-rails, with [[Model Speciation]] as the potential structural response. The organizational trajectory follows [[Company as Intelligence]]: if AI is just cost optimization, you get absorbed; the durable advantage is compounding understanding.
 
-The historical parallel remains [[The Printing Press Analogy]]: scribes became authors; the market for literature exploded. Engineers will become orchestrators; the market for software will explode. But as Karpathy notes, if you're not pushing the frontier of what's possible, "everything is [[Skill Issue]]."
+The historical parallel remains [[The Printing Press Analogy]]: scribes became authors; the market for literature exploded. Engineers will become orchestrators; the market for software will explode. And as [[Jack Dorsey]] argues, [[Hierarchy as Information Routing|hierarchy]] — the organizational form that has governed every large institution for 2,000 years — may finally have an alternative. But as Karpathy notes, if you're not pushing the frontier of what's possible, "everything is [[Skill Issue]]."

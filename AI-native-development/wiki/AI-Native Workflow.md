@@ -3,7 +3,7 @@ type: concept
 title: AI-Native Workflow
 created: 2026-04-10
 updated: 2026-04-11
-sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, From Hierarchy to Intelligence.md]
 tags: [methodology, workflow, ai-native]
 ---
 
@@ -79,6 +79,15 @@ Not limited to engineers. At [[Anthropic]]:
 
 This supports the [[Generalist vs Specialist]] thesis — AI-native workflows dissolve traditional role boundaries.
 
+## From Individual to Organization
+
+The AI-native workflow pattern doesn't stop at individuals. [[Jack Dorsey]]'s [[From Hierarchy to Intelligence]] extends the same structural move to the organizational level:
+
+- **Individual:** human orchestrates agents → agents write code → human reviews
+- **Organization:** AI maintains [[World Model (Organizational)|world models]] → [[Intelligence Layer]] composes solutions → humans operate at the edge
+
+Both share the same logic: AI takes over the coordination function that humans used to perform. At the individual level, it replaces the developer's manual coding. At the organizational level, it replaces [[Hierarchy as Information Routing|hierarchy's information routing]]. See [[Company as Intelligence]].
+
 ## Related Concepts
 
 - [[Prototyping Over PRDs]] — a product development practice enabled by this workflow
@@ -89,3 +98,4 @@ This supports the [[Generalist vs Specialist]] thesis — AI-native workflows di
 - [[Token Throughput]] — the productivity metric
 - [[Macro Actions]] — the unit of work
 - [[Claws]] — the next evolution: persistent autonomous agents
+- [[Company as Intelligence]] — the organizational-level extension of this workflow
