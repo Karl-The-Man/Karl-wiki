@@ -3,8 +3,8 @@ type: concept
 title: Philosophy of Curiosity
 created: 2026-04-10
 updated: 2026-04-10
-sources: [elon-musk-on-first-principles.pdf]
-tags: [philosophy, consciousness, existentialism, elon-musk]
+sources: [elon-musk-on-first-principles.pdf, How to Think for Yourself.md]
+tags: [philosophy, consciousness, existentialism, curiosity]
 ---
 
 # Philosophy of Curiosity
@@ -39,8 +39,22 @@ Musk speculates about the nature of consciousness itself: "Is everything conscio
 
 Written language is ~5,000 years old. If civilization lasts a million more years, we are "barely even at the beginning." Future humans will view us as "ancient ancients, like cavemen." This timescale argument reinforces the urgency of preserving and expanding civilization. *(elon-musk-on-first-principles.pdf)*
 
+## Graham's Treatment: Curiosity as the Compass of Independent-Mindedness
+
+[[Paul Graham]] makes curiosity the third component of [[Independent-Mindedness]] — and arguably the most important. "To the extent that we can give a brief answer to the question of where novel ideas come from, it's curiosity." He observes perfect correlation in his experience: "Everyone I know who's independent-minded is deeply curious, and everyone I know who's conventional-minded isn't." *(How to Think for Yourself.md)*
+
+Where Musk frames curiosity as a cosmic philosophy (understand the universe), Graham frames it as a *practical compass* for finding the work where you'll be most original: "your motto should not be 'do what you love' so much as 'do what you're curious about.'" *(How to Think for Yourself.md)*
+
+Key differences from Musk's treatment:
+- **Musk:** Curiosity is a foundational philosophical commitment — the *reason* to think from first principles.
+- **Graham:** Curiosity is a trainable cognitive muscle — the *mechanism* by which new ideas replace conventional ones.
+
+Graham also notes a paradox: all small children are curious, even the eventually conventional-minded, "in order to learn what the conventions are. Whereas the independent-minded are the gluttons of curiosity, who keep eating even after they're full." And uniquely, curiosity is self-reinforcing: "indulging it tends to increase rather than to sate it. Questions lead to more questions." *(How to Think for Yourself.md)*
+
 ## Related Concepts
 
 - [[First Principles Thinking]] — the method derived from this philosophical foundation
+- [[Independent-Mindedness]] — the trait that curiosity enables and indexes (Graham)
 - [[Obsession with Truth]] — the epistemic commitment that serves the philosophy
 - [[Semantic Tree of Knowledge]] — the learning strategy that supports it
+- [[Intellectual Fashion]] — curiosity's search space is where fashion isn't looking (Graham)

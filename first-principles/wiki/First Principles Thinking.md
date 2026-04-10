@@ -3,7 +3,7 @@ type: concept
 title: First Principles Thinking
 created: 2026-04-10
 updated: 2026-04-10
-sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md]
+sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md, How to Think for Yourself.md]
 tags: [epistemology, reasoning, physics, problem-solving]
 ---
 
@@ -54,9 +54,22 @@ Musk acknowledges that first-principles reasoning is cognitively expensive and u
 
 Huang applies it more pervasively — he describes resetting the company to first principles regularly as conditions change: "The world has changed. How we think about software today, how we think about computers today, just always cause yourself to go back to first principles." For Huang, the trigger is change in conditions, not just novelty of the problem. *(Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md)*
 
+## Graham's Psychological Foundation
+
+[[Paul Graham]] provides the *why some people can do this* layer that Musk and Huang take for granted. In "How to Think for Yourself," Graham argues that first-principles thinking requires [[Independent-Mindedness]] — which decomposes into three interchangeable components:
+
+1. **Fastidiousness about truth** — calibrated degrees of belief; horror of ideologies (maps to [[Obsession with Truth]])
+2. **Resistance to being told what to think** — active delight in counterintuitive ideas, not mere contrarianism
+3. **Curiosity** — the force that fills the space cleared by the other two (maps to [[Philosophy of Curiosity]])
+
+His "Is that true?" protocol — systematically questioning accepted beliefs — is first-principles reasoning applied to everyday claims rather than to engineering or manufacturing. Graham also identifies [[Intellectual Fashion]] as the social mechanism that enforces [[Conventional-Mindedness]], making first-principles thinking socially costly. *(How to Think for Yourself.md)*
+
 ## Related Concepts
 
 - [[Reasoning by Analogy]] — the default mode it replaces for important decisions
+- [[Independent-Mindedness]] — the psychological disposition that enables first-principles thinking (Graham)
+- [[Conventional-Mindedness]] — the disposition that defaults to analogy and convention (Graham)
+- [[Intellectual Fashion]] — the social mechanism that makes first-principles thinking costly (Graham)
 - [[Idiot Index]] — a quantitative tool derived from first-principles cost analysis
 - [[Thinking in Limits]] — a complementary method for stress-testing assumptions
 - [[Obsession with Truth]] — the epistemic disposition that motivates first-principles thinking

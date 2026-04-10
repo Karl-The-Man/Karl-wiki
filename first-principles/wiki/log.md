@@ -20,3 +20,8 @@ Pages updated: [[index]], [[overview]], [[log]]
 Ingested `raw/Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md` — Stanford GSB *View From The Top* interview transcript (2023-02-09). Huang discusses first-principles thinking as a reinvention prompt, EOIFS (Early Indicators of Future Success), organizational design from first principles, crisis resilience via axiom-checking, and reasoning about generative AI.
 Pages created: [[Jensen Huang on First Principles Thinking]], [[Jensen Huang]], [[NVIDIA]], [[Stanford GSB]], [[EOIFS]], [[Organizational First Principles]], [[Gut-Check Resilience]]
 Pages updated: [[First Principles Thinking]], [[Reasoning by Analogy]], [[Obsession with Truth]], [[index]], [[overview]], [[log]]
+
+## [2026-04-10] ingest | How to Think for Yourself (Paul Graham)
+Ingested `raw/How to Think for Yourself.md` — Paul Graham essay (November 2020) on independent-mindedness as the psychological prerequisite for novel thinking. Decomposes independent-mindedness into three interchangeable components: fastidiousness about truth, resistance to being told what to think, and curiosity. Provides the *who can do first-principles thinking and why* layer that Musk and Huang take for granted.
+Pages created: [[How to Think for Yourself (Paul Graham)]], [[Paul Graham]], [[Independent-Mindedness]], [[Conventional-Mindedness]], [[Intellectual Fashion]]
+Pages updated: [[First Principles Thinking]], [[Reasoning by Analogy]], [[Obsession with Truth]], [[Philosophy of Curiosity]], [[Wishful Thinking]], [[index]], [[overview]], [[log]]

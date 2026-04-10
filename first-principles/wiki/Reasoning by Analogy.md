@@ -3,7 +3,7 @@ type: concept
 title: Reasoning by Analogy
 created: 2026-04-10
 updated: 2026-04-10
-sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md]
+sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md, How to Think for Yourself.md]
 tags: [epistemology, reasoning, cognitive-bias]
 ---
 
@@ -54,3 +54,9 @@ Musk acknowledges analogy-based reasoning is cognitively efficient: "In most of 
 [[Jensen Huang]] adds an important twist: he *does* learn how something was done before — but then deliberately discards the inherited constraints. "You can't learn how somebody else does something and do it exactly the same way and hope to have a different outcome. But you can learn how something can be done and then go back to first principles." This is subtly different from Musk's framing, which emphasizes ignoring precedent from the start. Huang treats precedent as useful *input* that must not become a *ceiling*. *(Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md)*
 
 He also identifies analogical reasoning in organizational design — copying conventional org charts is reasoning by analogy applied to management. See [[Organizational First Principles]].
+
+## Graham's Extension: Conformism as Belief-Level Analogy
+
+[[Paul Graham]] extends the concept beyond engineering into epistemology. [[Conventional-Mindedness]] is reasoning by analogy applied to *beliefs* rather than to products: adopting ideas because others hold them, just as one might copy a competitor's design. "It genuinely feels to them as if they make up their own minds about everything. It's just a coincidence that their beliefs are identical to their peers'." *(How to Think for Yourself.md)*
+
+Graham identifies [[Intellectual Fashion]] as the propagation mechanism — ideas spread through groups like clothing trends, creating crowded consensus territory where novelty is impossible. The antidote is the same as in engineering: decompose to what you independently know to be true ([[First Principles Thinking]]), rather than defaulting to what the group believes.
