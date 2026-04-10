@@ -2,8 +2,8 @@
 type: concept
 title: The Bitter Lesson
 created: 2026-04-10
-updated: 2026-04-10
-sources: [Building-Claude-Code-with-Boris-Cherny.md]
+updated: 2026-04-11
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
 tags: [principle, architecture, ai-philosophy]
 ---
 
@@ -37,8 +37,18 @@ When Claude Code was given a bash tool, "the model just wants to use tools" — 
 - **Retry failed ideas periodically** — what didn't work with an older model may work with a newer one, because the general capability improved
 - **Favor simple, general tools** over domain-specific retrieval systems
 
+### AutoResearch
+[[Andrej Karpathy]]'s [[AutoResearch]] is the Bitter Lesson applied to ML research itself: instead of relying on human researcher intuition (clever, but doesn't scale), set up autonomous loops with objective metrics and let compute do the search. An overnight run found optimizations in [[NanoGPT]] that Karpathy — a two-decade ML veteran — had missed.
+
+> "Remove researchers from the loop — they have way too much confidence, and they shouldn't be touching any of this really."
+
+### Recursive Self-Improvement
+[[Recursive Self-Improvement]] is the Bitter Lesson taken to its logical conclusion: LLMs improving LLMs, with human researchers contributing "ideas to a queue" rather than directly running experiments.
+
 ## Related Concepts
 
 - [[Agentic Search]] — concrete example of the Bitter Lesson in action
 - [[Uncorrelated Context Windows]] — more compute beats more engineering
 - [[Agent Teams]] — swarms as a Bitter Lesson application
+- [[AutoResearch]] — the Bitter Lesson applied to ML research
+- [[Recursive Self-Improvement]] — the Bitter Lesson's ultimate endpoint

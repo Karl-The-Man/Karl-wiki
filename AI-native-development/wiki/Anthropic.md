@@ -2,8 +2,8 @@
 type: entity
 title: Anthropic
 created: 2026-04-10
-updated: 2026-04-10
-sources: [Building-Claude-Code-with-Boris-Cherny.md]
+updated: 2026-04-11
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
 tags: [company, ai-safety, claude]
 ---
 

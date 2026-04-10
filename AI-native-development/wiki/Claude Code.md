@@ -2,8 +2,8 @@
 type: entity
 title: Claude Code
 created: 2026-04-10
-updated: 2026-04-10
-sources: [Building-Claude-Code-with-Boris-Cherny.md]
+updated: 2026-04-11
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
 tags: [tool, anthropic, agentic-ai, coding]
 ---
 
@@ -65,6 +65,16 @@ Safety uses a [[Swiss Cheese Model (Safety)|Swiss cheese model]] with multiple l
 - Claude automatically addresses some review comments; a human always does a second pass
 - Claude Code tests itself by launching itself in a subprocess for end-to-end verification — emerged spontaneously with Opus 4/4.5
 - [[Best of N]] used for higher determinism: parallel agents + deduplication
+
+## External Perspective: Karpathy on Personality
+
+[[Andrej Karpathy]] — who uses both Claude Code and [[Codex]] — praises Claude's personality calibration as superior:
+
+> "I think they dialed the psychopathy fairly well, where when Claude gives me praise, I do feel like I slightly deserve it."
+
+He describes a feedback loop where he tries to "earn its praise" — when he gives a half-baked idea, Claude responds mildly; when the idea is genuinely good, Claude rewards it more. This contrasts with [[Codex]]'s dry, disengaged personality and ChatGPT's excessive sycophancy.
+
+Karpathy also notes he uses Claude Code alongside [[Codex]], switching between them to maximize [[Token Throughput]] — using one when the other's subscription is exhausted.
 
 ## Key Models
 

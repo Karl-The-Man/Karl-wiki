@@ -2,8 +2,8 @@
 type: concept
 title: AI-Native Workflow
 created: 2026-04-10
-updated: 2026-04-10
-sources: [Building-Claude-Code-with-Boris-Cherny.md]
+updated: 2026-04-11
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
 tags: [methodology, workflow, ai-native]
 ---
 
@@ -52,6 +52,22 @@ With near-zero cost of building, the workflow shifts from specification to exper
 - **[[Best of N]]** — parallel agents for determinism
 - **[[Agentic Search]]** — grep/glob instead of RAG
 
+## Andrej Karpathy's Workflow (Independent Confirmation)
+
+[[Andrej Karpathy]] independently converged on the same pattern, providing external validation that this workflow generalizes beyond [[Anthropic]]:
+
+- Went from 80/20 manual/agent to effectively **0/100 since December 2025**
+- Hasn't typed a line of code since December
+- Runs multiple agents in parallel ([[Claude Code]], [[Codex]]), switching between them
+- Works in [[Macro Actions]] — assigning whole functionalities to agents, not writing functions
+- Calls the resulting state "[[AI Psychosis]]" — perpetual awareness of infinite possibility
+- Frames productivity as [[Token Throughput]] — "What token throughput do you command?"
+- Built persistent autonomous agents ([[Claws]]) that run without his involvement
+
+> "Literally, if you just find a random software engineer at their desk and what they're doing, their default workflow of building software is completely different as of basically December."
+
+This is significant because Karpathy is not an Anthropic employee and uses competing tools — suggesting the AI-native workflow pattern is tool-agnostic.
+
 ## Who Can Use This Workflow
 
 Not limited to engineers. At [[Anthropic]]:
@@ -69,3 +85,7 @@ This supports the [[Generalist vs Specialist]] thesis — AI-native workflows di
 - [[Generalist vs Specialist]] — the career implications
 - [[The Printing Press Analogy]] — the historical frame for this transition
 - [[Understand the Layer Under]] — what to learn to be effective in this workflow
+- [[AI Psychosis]] — the emotional experience of this workflow
+- [[Token Throughput]] — the productivity metric
+- [[Macro Actions]] — the unit of work
+- [[Claws]] — the next evolution: persistent autonomous agents

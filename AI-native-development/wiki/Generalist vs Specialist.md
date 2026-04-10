@@ -2,8 +2,8 @@
 type: concept
 title: Generalist vs Specialist
 created: 2026-04-10
-updated: 2026-04-10
-sources: [Building-Claude-Code-with-Boris-Cherny.md]
+updated: 2026-04-11
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
 tags: [skills, future-of-work, career]
 ---
 
@@ -48,8 +48,20 @@ Boris's strongest claim: the next trillion-dollar startup might be built by **on
 
 [[The Printing Press Analogy]] reinforces this: the printing press didn't reward better scribes (specialists). It rewarded people with ideas worth publishing — those who could think about content, audience, and distribution (generalists).
 
+## Karpathy's Perspective: Independence and Ecosystem Roles
+
+[[Andrej Karpathy]] embodies the generalist thesis from outside a frontier lab. He describes the value of "ecosystem-level roles" — being a free agent who can contribute across research, education, tools, and public commentary without being constrained by a single organization's priorities. His work spans [[AutoResearch]], [[Claws]], [[microGPT]], and public education — a portfolio only a generalist could hold.
+
+He also argues that frontier labs may benefit from people who go back and forth between inside and outside, rather than deep specialization within one organization.
+
+## The Model Speciation Tension
+
+Interestingly, [[Model Speciation]] suggests that AI models themselves may need to specialize — even as the humans using them become more generalist. The human role becomes orchestration across specialized tools, which is itself a generalist skill.
+
 ## Related Concepts
 
 - [[The Printing Press Analogy]] — historical parallel for the generalist shift
 - [[AI-Native Workflow]] — the working style that favors generalists
 - [[Prototyping Over PRDs]] — a generalist-friendly development methodology
+- [[Model Speciation]] — models may specialize even as humans generalize
+- [[Macro Actions]] — the key generalist skill: decomposing work for agents

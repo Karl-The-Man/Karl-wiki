@@ -2,8 +2,8 @@
 type: entity
 title: Agent Teams
 created: 2026-04-10
-updated: 2026-04-10
-sources: [Building-Claude-Code-with-Boris-Cherny.md]
+updated: 2026-04-11
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
 tags: [tool, anthropic, swarms, agentic-ai]
 ---
 
@@ -31,8 +31,16 @@ The most dramatic example of Agent Teams in action: engineer Daisy set up a cont
 - Implementation can be as simple as asking Claude to "start three agents to do this"
 - Also used with [[Best of N]] for higher determinism: parallel agents + deduplication agents checking for false positives
 
+## External Validation: Karpathy's Parallel Agents
+
+[[Andrej Karpathy]] independently converged on the same pattern outside Anthropic — running multiple agents ([[Claude Code]], [[Codex]]) in parallel, assigning whole functionalities as [[Macro Actions]]. His workflow differs in tooling (uses Codex alongside Claude Code) but matches the core principle: human as orchestrator of parallel agent streams. [[Peter Steinberger]] takes this further with a tiled monitor of many simultaneous [[Codex]] agents.
+
+Karpathy also envisions the next level: [[Distributed Auto Research]], where parallel agents collaborate asynchronously at internet scale.
+
 ## Relationship to Other Concepts
 
 - Implements the principle of [[Uncorrelated Context Windows]]
 - Exemplifies [[The Bitter Lesson]] — letting multiple models work independently rather than engineering a sophisticated coordination system
 - Related to test-time compute scaling
+- [[Macro Actions]] — the granularity at which parallel agents are assigned work
+- [[Distributed Auto Research]] — parallel agents scaled to untrusted internet compute

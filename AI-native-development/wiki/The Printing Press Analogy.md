@@ -2,8 +2,8 @@
 type: concept
 title: The Printing Press Analogy
 created: 2026-04-10
-updated: 2026-04-10
-sources: [Building-Claude-Code-with-Boris-Cherny.md]
+updated: 2026-04-11
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
 tags: [analogy, history, future-of-work]
 ---
 
@@ -41,8 +41,14 @@ The analogy serves multiple purposes:
 3. **Emphasizes unpredictability**: just as the printing press's full effects were unimaginable to 15th-century scribes, AI's applications will surprise us
 4. **Reframes identity**: the skill shifts from the mechanics (writing/coding) to the creative and strategic layer above it
 
+## The Economic Mechanism: Jevons Paradox
+
+[[Andrej Karpathy]] provides the economic mechanism underlying this analogy: [[Jevons Paradox]]. When software becomes cheaper to produce, total demand for software increases — just as the printing press made books cheaper, which increased total demand for written content. Karpathy cites the ATM/bank teller precedent as the modern example. This gives the analogy a concrete economic grounding beyond historical metaphor.
+
 ## Related Concepts
 
 - [[Generalist vs Specialist]] — the printing press didn't reward better scribes; it rewarded people with ideas worth publishing
 - [[AI-Native Workflow]] — the new way of working that emerges post-"printing press"
 - [[Prototyping Over PRDs]] — one concrete manifestation of how "writing" (specification) gives way to "showing" (building)
+- [[Jevons Paradox]] — the economic mechanism: cheaper production → more demand
+- [[Education Through Agents]] — another parallel: scribes became teachers, and now teachers redirect through agents

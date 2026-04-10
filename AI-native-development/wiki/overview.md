@@ -2,8 +2,8 @@
 type: overview
 title: AI-Native Development — Overview
 created: 2026-04-10
-updated: 2026-04-10
-sources: [Building-Claude-Code-with-Boris-Cherny.md]
+updated: 2026-04-11
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
 tags: [overview]
 ---
 
@@ -13,36 +13,59 @@ This wiki tracks the emerging landscape of **AI-native development** — buildin
 
 ## Current State
 
-The wiki contains one deeply sourced interview: [[Building Claude Code with Boris Cherny]], a long-form podcast with the creator of [[Claude Code]] at [[Anthropic]]. This source provides the most detailed first-person account available of what a fully AI-native engineering workflow looks like in practice — including concrete numbers (80% of code AI-written, 20–30 PRs/day, zero hand-written code) and architectural decisions (abandoning RAG for [[Agentic Search]], [[Prototyping Over PRDs]]).
+The wiki draws on two deeply sourced interviews:
+
+1. **[[Building Claude Code with Boris Cherny]]** — Pragmatic Engineer podcast with the creator of [[Claude Code]] at [[Anthropic]]. The most detailed first-person account of a fully AI-native engineering workflow inside a frontier lab — including concrete numbers (80% of code AI-written, 20–30 PRs/day, zero hand-written code) and architectural decisions (abandoning RAG for [[Agentic Search]], [[Prototyping Over PRDs]]).
+
+2. **[[Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI]]** — No Priors podcast with one of the most credible voices in AI. Provides independent external validation of the AI-native workflow pattern, plus original frameworks: [[AutoResearch]] (autonomous ML experimentation), [[Claws]] (persistent autonomous agents), [[Token Throughput]] as the new productivity metric, and a vision for the trajectory from digital to physical AI.
+
+The two sources are strikingly convergent: Boris Cherny (inside Anthropic) and Andrej Karpathy (independent, using multiple tools) independently describe the same fundamental shift — humans no longer write code; they orchestrate agents in parallel.
 
 ## Key Themes
 
-### The workflow is here, and it's radical
-[[Boris Cherny]] ships 20–30 PRs daily with zero hand-written code, manages five parallel [[Claude Code]] sessions, and codes from his phone. He uninstalled his IDE. This isn't theoretical — it's his documented daily practice. See [[AI-Native Workflow]].
+### The workflow revolution is confirmed by multiple sources
+[[Boris Cherny]] ships 20–30 PRs daily with zero hand-written code. [[Andrej Karpathy]] hasn't typed a line of code since December 2025. Both run parallel agent sessions and describe a qualitative shift in what developers do. See [[AI-Native Workflow]], [[Macro Actions]].
 
 ### Simpler architectures win
-The [[Claude Code]] team abandoned RAG in favor of [[Agentic Search]] (grep/glob), embodying [[The Bitter Lesson]]: give the model simple tools and get out of the way. The architecture is described as "very simple" — a query loop, a few tools, a UI, and security code.
+The [[Claude Code]] team abandoned RAG for [[Agentic Search]]. Karpathy's [[AutoResearch]] uses simple loops with objective metrics rather than sophisticated pipelines. Both embody [[The Bitter Lesson]]: give the model tools and get out of the way.
+
+### The "loopy era" — persistent autonomous agents
+Beyond interactive coding agents, [[Claws]] represent persistent, looping entities with their own sandboxes, memory, and personality. Karpathy's Dobby manages his home; [[Peter Steinberger]]'s [[OpenClaw]] innovates in memory and personality design. [[AutoResearch]] is a specialized claw for ML experimentation.
 
 ### Safety requires layered defense
-[[Swiss Cheese Model (Safety)|Swiss cheese model]]: model alignment, runtime classifiers, sub-agent summarization, permission prompts, and VM isolation. No single layer is sufficient. Safety is described as "the most important thing."
+[[Swiss Cheese Model (Safety)|Swiss cheese model]]: model alignment, runtime classifiers, sub-agent summarization, permission prompts, and VM isolation. Karpathy also expresses caution about giving agents full access to his digital life — "I'm still a little suspicious."
 
 ### The generalist is ascendant
-Strong opinions about languages and frameworks are losing value. [[Generalist vs Specialist|Multi-disciplinary generalists]] who can think across engineering, product, business, and design are rising. [[Anthropic]]'s flat "Member of Technical Staff" title encodes this belief.
+Both sources agree: strong opinions about languages and frameworks are losing value. [[Generalist vs Specialist|Multi-disciplinary generalists]] who can think across domains are rising. Karpathy embodies this — his work spans research, education, tools, and public commentary.
 
-### Building replaces specifying
-[[Prototyping Over PRDs]]: when building costs near zero, it's faster to make 30 prototypes than to write a requirements document. "We don't really write stuff — we just show."
+### Cheaper software creates more demand
+[[Jevons Paradox]]: as AI makes software cheaper to produce, demand explodes rather than contracts. This is the economic mechanism underlying [[The Printing Press Analogy]] — scribes became authors in a larger market; engineers become orchestrators in a larger market.
 
-### The printing press parallel
-[[The Printing Press Analogy]]: software engineers are modern scribes; AI is the printing press. Scribes became writers and authors in a vastly larger market. The effects took centuries to fully manifest.
+### AI capabilities are jagged
+[[Jaggedness]]: models are simultaneously brilliant in verifiable domains (code, math) and stagnant in non-verifiable ones (humor, nuance). This is a structural consequence of RL optimization. It suggests [[Model Speciation]] — specialized models rather than one monoculture oracle.
+
+### The trajectory: digital → interface → physical
+[[Digital-Physical Interface]]: digital transformation first (massive, fast), then sensors/actuators as the interface, then full physical world (biggest TAM, slowest). Atoms are "a million times harder."
+
+### Education is being redirected through agents
+[[Education Through Agents]]: teachers explain to agents; agents explain to humans. Documentation shifts from HTML for humans to markdown for agents. "I'm not explaining to people anymore."
 
 ## Key Questions to Explore
 
-- How does Boris's workflow generalize beyond Anthropic? Is this specific to the company that makes the tool?
+- How does the AI-native workflow generalize to organizations outside AI labs and beyond power users like Karpathy?
 - What do competing tools (Cursor, Copilot, Windsurf) look like through the same analytical lens?
-- How do organizations outside AI labs adopt AI-native workflows?
-- What are the failure modes and limits of the AI-native approach?
-- How do [[Agent Teams]] and swarms change the economics of software development at scale?
+- What are the failure modes and limits of [[AutoResearch]] — where does autonomous experimentation break down?
+- How does [[Distributed Auto Research]] actually work in practice? Can untrusted compute pools really compete with frontier labs?
+- What is the right architecture for [[Claws]] — memory systems, personality, interface?
+- How does [[Jaggedness]] evolve as models improve — does it narrow or persist?
+- When does [[Model Speciation]] actually happen at scale?
 
 ## Thesis (Evolving)
 
-AI-native development is not an incremental improvement to existing workflows — it's a qualitative shift in what developers do. The human role moves from code authorship to direction, judgment, and review. The tools are simple (grep, not RAG); the safety is layered (Swiss cheese, not single-gate); the culture is experimental (prototypes, not PRDs). The historical parallel is the printing press: the skill of "writing" (coding) gets democratized, the market for "literature" (software) explodes, and the practitioners evolve from scribes to authors.
+AI-native development is not an incremental improvement to existing workflows — it's a qualitative shift in what developers do. The human role moves from code authorship to direction, judgment, and review. This shift is now confirmed by multiple independent sources: an Anthropic insider (Boris Cherny) and an independent researcher using multiple tools (Andrej Karpathy).
+
+The next frontier is **persistence and autonomy**: [[Claws]] that loop without human involvement, [[AutoResearch]] that optimizes overnight, agents that manage physical infrastructure. The tools are simple (grep, not RAG; loops, not pipelines); the safety is layered (Swiss cheese); the culture is experimental (prototypes, not PRDs).
+
+The economic trajectory follows [[Jevons Paradox]]: cheaper software production creates more demand, not less. The capability trajectory follows [[Digital-Physical Interface]]: digital first (fast), then sensors/actuators (medium), then full physical (slow, big). The intelligence trajectory faces [[Jaggedness]]: brilliant on-rails, mediocre off-rails, with [[Model Speciation]] as the potential structural response.
+
+The historical parallel remains [[The Printing Press Analogy]]: scribes became authors; the market for literature exploded. Engineers will become orchestrators; the market for software will explode. But as Karpathy notes, if you're not pushing the frontier of what's possible, "everything is [[Skill Issue]]."
