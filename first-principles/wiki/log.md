@@ -2,7 +2,7 @@
 type: log
 title: Wiki Log
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-12
 ---
 
 # Wiki Log
@@ -25,3 +25,8 @@ Pages updated: [[First Principles Thinking]], [[Reasoning by Analogy]], [[Obsess
 Ingested `raw/How to Think for Yourself.md` — Paul Graham essay (November 2020) on independent-mindedness as the psychological prerequisite for novel thinking. Decomposes independent-mindedness into three interchangeable components: fastidiousness about truth, resistance to being told what to think, and curiosity. Provides the *who can do first-principles thinking and why* layer that Musk and Huang take for granted.
 Pages created: [[How to Think for Yourself (Paul Graham)]], [[Paul Graham]], [[Independent-Mindedness]], [[Conventional-Mindedness]], [[Intellectual Fashion]]
 Pages updated: [[First Principles Thinking]], [[Reasoning by Analogy]], [[Obsession with Truth]], [[Philosophy of Curiosity]], [[Wishful Thinking]], [[index]], [[overview]], [[log]]
+
+## [2026-04-12] ingest | Cargo Cult Science (Richard Feynman)
+Ingested `raw/Cargo Cult Science - Richard Feynman (1974).md` — Caltech commencement address (1974-06-14). Feynman defines "scientific integrity" as the procedural standard for truth-seeking: proactive disclosure of disconfirming evidence, publishing both ways, enumerating alternative explanations. Coins "cargo cult science" for disciplines that imitate the form of rigorous inquiry without the substance. Provides the *methodological layer* — the *how* of first-principles thinking — that complements Musk's *what*, Huang's *when*, and Graham's *who*.
+Pages created: [[Cargo Cult Science (Richard Feynman)]], [[Richard Feynman]], [[Scientific Integrity]], [[Cargo Cult Science]], [[Caltech]]
+Pages updated: [[First Principles Thinking]], [[Obsession with Truth]], [[Wishful Thinking]], [[Reasoning by Analogy]], [[Philosophy of Curiosity]], [[Independent-Mindedness]], [[overview]], [[index]], [[log]]

@@ -2,8 +2,8 @@
 type: concept
 title: First Principles Thinking
 created: 2026-04-10
-updated: 2026-04-10
-sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md, How to Think for Yourself.md]
+updated: 2026-04-12
+sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md, How to Think for Yourself.md, Cargo Cult Science - Richard Feynman (1974).md]
 tags: [epistemology, reasoning, physics, problem-solving]
 ---
 
@@ -64,6 +64,20 @@ Huang applies it more pervasively — he describes resetting the company to firs
 
 His "Is that true?" protocol — systematically questioning accepted beliefs — is first-principles reasoning applied to everyday claims rather than to engineering or manufacturing. Graham also identifies [[Intellectual Fashion]] as the social mechanism that enforces [[Conventional-Mindedness]], making first-principles thinking socially costly. *(How to Think for Yourself.md)*
 
+## Feynman's Formulation: Scientific Integrity
+
+[[Richard Feynman]] applies first-principles thinking to epistemology itself — asking: *What is the essential ingredient that separates real science from pseudoscience?* His answer is [[Scientific Integrity]]: "a kind of utter honesty — a kind of leaning over backwards" that requires proactively disclosing disconfirming evidence, alternative explanations, and everything that might make your results invalid. *(Cargo Cult Science, 1974)*
+
+Feynman's formulation is distinctive in this wiki because it provides *procedural standards* rather than a disposition or reinvention prompt:
+1. **Report everything that might make your results invalid** — not just what supports them.
+2. **Publish both ways** — decide to publish your test results regardless of outcome.
+3. **Ensure genuine prediction** — your theory must predict things beyond the data that inspired it.
+4. **Disclose alternative explanations** — enumerate and eliminate competing hypotheses.
+
+His "first principle" — "you must not fool yourself, and you are the easiest person to fool" — is the most concise formulation of [[Obsession with Truth]] in the wiki. Where Musk stresses the *what* (decompose to axioms), Huang stresses the *when* (reinvent given changed conditions), and Graham stresses the *who* (independent-minded people), Feynman stresses the *how*: here are the specific practices that prevent self-deception.
+
+He coins "[[Cargo Cult Science]]" for disciplines that imitate the *form* of rigorous inquiry without the substance — a powerful illustration of [[Reasoning by Analogy]] applied to methodology rather than to products or beliefs.
+
 ## Related Concepts
 
 - [[Reasoning by Analogy]] — the default mode it replaces for important decisions
@@ -78,3 +92,6 @@ His "Is that true?" protocol — systematically questioning accepted beliefs —
 - [[EOIFS]] — first-principles approach to metrics (Huang)
 - [[Organizational First Principles]] — applying the method to company design (Huang)
 - [[Gut-Check Resilience]] — applying the method to crisis navigation (Huang)
+- [[Scientific Integrity]] — the procedural standard for truth-seeking (Feynman)
+- [[Cargo Cult Science]] — what happens when form is imitated without substance (Feynman)
+- [[Richard Feynman]] — applies first-principles thinking to epistemology itself

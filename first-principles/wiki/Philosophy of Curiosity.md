@@ -2,8 +2,8 @@
 type: concept
 title: Philosophy of Curiosity
 created: 2026-04-10
-updated: 2026-04-10
-sources: [elon-musk-on-first-principles.pdf, How to Think for Yourself.md]
+updated: 2026-04-12
+sources: [elon-musk-on-first-principles.pdf, How to Think for Yourself.md, Cargo Cult Science - Richard Feynman (1974).md]
 tags: [philosophy, consciousness, existentialism, curiosity]
 ---
 
@@ -51,6 +51,17 @@ Key differences from Musk's treatment:
 
 Graham also notes a paradox: all small children are curious, even the eventually conventional-minded, "in order to learn what the conventions are. Whereas the independent-minded are the gluttons of curiosity, who keep eating even after they're full." And uniquely, curiosity is self-reinforcing: "indulging it tends to increase rather than to sate it. Questions lead to more questions." *(How to Think for Yourself.md)*
 
+## Feynman's Curiosity: Investigative and Embodied
+
+[[Richard Feynman]] exemplifies a *hands-on, investigative* mode of curiosity distinct from both Musk's cosmic philosophy and Graham's cognitive compass. When confronted with claims about mysticism, ESP, and reflexology, Feynman didn't dismiss them abstractly — he went to Esalen, sat in isolation tanks, visited Uri Geller's hotel room, and personally tested claims. "What has been referred to as my curiosity for investigation has landed me in a difficulty where I found so much junk that I'm overwhelmed." *(Cargo Cult Science, 1974)*
+
+This embodied curiosity led him to the central insight of [[Cargo Cult Science]]: that most things people believe to be scientific aren't. His curiosity didn't just fill space cleared by truth-seeking (as Graham describes) — it drove him to *seek out* pseudoscience, test it personally, and then ask *why* so many people are fooled. The chain: curiosity about claims → personal investigation → discovery of systemic self-deception → the cargo cult framework.
+
+Key difference from other treatments:
+- **Musk:** Curiosity is about the universe's fundamental nature — expansive, philosophical.
+- **Graham:** Curiosity is a compass for finding original work — directional, individual.
+- **Feynman:** Curiosity is a method of investigation — empirical, testing claims by showing up and checking.
+
 ## Related Concepts
 
 - [[First Principles Thinking]] — the method derived from this philosophical foundation
@@ -58,3 +69,6 @@ Graham also notes a paradox: all small children are curious, even the eventually
 - [[Obsession with Truth]] — the epistemic commitment that serves the philosophy
 - [[Semantic Tree of Knowledge]] — the learning strategy that supports it
 - [[Intellectual Fashion]] — curiosity's search space is where fashion isn't looking (Graham)
+- [[Richard Feynman]] — investigative, embodied curiosity that tests claims by showing up
+- [[Scientific Integrity]] — the procedural framework that channels Feynman's curiosity
+- [[Cargo Cult Science]] — what Feynman's curiosity uncovered about pseudoscience

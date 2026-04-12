@@ -4,6 +4,7 @@
 - [[Building Claude Code with Boris Cherny]] — Pragmatic Engineer podcast interview with Claude Code's creator on AI-native workflows, architecture, safety, and the future of engineering (2026-04-10)
 - [[Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI]] — No Priors podcast on code agents, AutoResearch, claws, jaggedness, and the digital-to-physical trajectory (2026-04-11)
 - [[From Hierarchy to Intelligence]] — Jack Dorsey's manifesto on replacing organizational hierarchy with AI at Block (2026-04-11)
+- [[Your harness, your memory (Harrison Chase)]] — Harrison Chase (LangChain) on agent harnesses, memory ownership, and vendor lock-in (2026-04-12)
 
 ## Entities
 - [[Andrej Karpathy]] — Independent AI researcher, educator, creator of AutoResearch and NanoGPT | sources: 1
@@ -20,6 +21,11 @@
 - [[Claude Agent SDK]] — SDK powering Claude Code, used in CI for automated code review | sources: 1
 - [[Jack Dorsey]] — Co-founder of Block, author of "From Hierarchy to Intelligence" | sources: 1
 - [[Block]] — Fintech company attempting to replace hierarchy with AI-coordinated intelligence | sources: 1
+- [[Harrison Chase]] — CEO of LangChain, advocate for open agent harnesses | sources: 1
+- [[LangChain]] — AI framework company behind Deep Agents, LangGraph, LangSmith | sources: 1
+- [[Deep Agents]] — LangChain's open-source, model-agnostic agent harness | sources: 1
+- [[Sarah Wooders]] — CTO of Letta, "memory isn't a plugin" thesis | sources: 1
+- [[Letta]] — Company at the forefront of stateful agents | sources: 1
 
 ## Concepts
 - [[AI-Native Workflow]] — Parallel agents, plan-first, phone-based coding, zero hand-written code; extends to organizational design | sources: 3
@@ -51,6 +57,9 @@
 - [[World Model (Organizational)]] — AI-maintained representation of company operations and customers | sources: 1
 - [[Intelligence Layer]] — AI system that composes capabilities into proactive customer solutions | sources: 1
 - [[Hierarchy as Information Routing]] — Hierarchy as a 2,000-year-old information routing protocol constrained by human span of control | sources: 1
+- [[Agent Harness]] — The scaffolding/system around an LLM that makes it an agent | sources: 1
+- [[Agent Memory]] — Context management, short-term and long-term, tied to the harness | sources: 1
+- [[Memory Lock-In]] — Vendor lock-in through proprietary memory ownership in closed harnesses | sources: 1
 
 ## Comparisons
 

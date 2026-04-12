@@ -2,8 +2,8 @@
 type: entity
 title: OpenClaw
 created: 2026-04-11
-updated: 2026-04-11
-sources: [Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
+updated: 2026-04-12
+sources: [Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, Your harness, your memory.md]
 tags: [tool, claw, agents, open-source]
 ---
 
@@ -18,6 +18,10 @@ A [[Claws|claw]] project created by [[Peter Steinberger]]. Praised by [[Andrej K
 2. **Sophisticated memory system** — goes well beyond the default context compaction that standard agents offer. "OpenClaw has a lot more sophisticated memory than what you would get by default."
 
 3. **WhatsApp portal** — a single messaging interface to all automation. Collapses multiple tools and systems into a natural-language conversation.
+
+## As Agent Harness
+
+[[Harrison Chase]] ([[LangChain]]) cites OpenClaw as one of the emerging [[Agent Harness|agent harnesses]], noting it is powered by Pi (the underlying framework). In the context of the [[Memory Lock-In]] debate, OpenClaw represents the open, model-agnostic approach that Chase advocates — in contrast to closed systems like [[Claude Code]] or API-locked systems like Anthropic's Managed Agents.
 
 ## Significance
 

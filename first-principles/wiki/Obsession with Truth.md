@@ -2,8 +2,8 @@
 type: concept
 title: Obsession with Truth
 created: 2026-04-10
-updated: 2026-04-10
-sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md, How to Think for Yourself.md]
+updated: 2026-04-12
+sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md, How to Think for Yourself.md, Cargo Cult Science - Richard Feynman (1974).md]
 tags: [epistemology, decision-making, cognitive-bias]
 ---
 
@@ -54,6 +54,20 @@ This maps to a roughly Bayesian disposition: "Believe things proportionate to th
 
 Graham also shows what happens *without* this fastidiousness: people who have resistance to authority but no truth-discipline "reject conventional ideas only to replace them with the most random conspiracy theories" — ending up *less* independent than ordinary people. Truth-fastidiousness is the load-bearing component that separates genuine [[Independent-Mindedness]] from contrarianism. *(How to Think for Yourself.md)*
 
+## Feynman's Formulation: "You Must Not Fool Yourself"
+
+[[Richard Feynman]] provides the most concise and arguably the most famous formulation of this disposition:
+
+> "The first principle is that you must not fool yourself — and you are the easiest person to fool."
+> *(Cargo Cult Science, 1974)*
+
+Feynman's unique contribution is distinguishing truth-seeking as a *disposition* from truth-seeking as a *procedure*. He argues that even well-intentioned scientists fool themselves through:
+- **Authority anchoring:** Post-Millikan experimenters unconsciously adjusted electron charge measurements toward his slightly-wrong value, discarding data that deviated too far.
+- **Confirmation bias:** "When they got a number closer to Millikan's value they didn't look so hard."
+- **Institutional pressure:** Labs prioritize "new results" for funding over methodological rigor.
+
+His remedy — [[Scientific Integrity]] — is a set of concrete practices: report disconfirming evidence, publish both ways, enumerate alternative explanations, ensure predictions go beyond the training data. This adds a *procedural layer* that Musk, Huang, and Graham don't provide. Being obsessed with truth is necessary but not sufficient; you also need a method for catching your own self-deception.
+
 ## Related Concepts
 
 - [[First Principles Thinking]] — the method that operationalizes truth-seeking
@@ -62,3 +76,6 @@ Graham also shows what happens *without* this fastidiousness: people who have re
 - [[Reasoning by Analogy]] — substitutes social proof for independent truth verification
 - [[Gut-Check Resilience]] — truth-anchored crisis navigation (Huang)
 - [[Intellectual Fashion]] — the social force that truth-fastidiousness inoculates against (Graham)
+- [[Scientific Integrity]] — the procedural method for operationalizing truth-obsession (Feynman)
+- [[Cargo Cult Science]] — what truth-seeking without integrity produces (Feynman)
+- [[Richard Feynman]] — "you must not fool yourself" as the most concise formulation

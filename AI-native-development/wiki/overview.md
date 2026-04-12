@@ -2,8 +2,8 @@
 type: overview
 title: AI-Native Development — Overview
 created: 2026-04-10
-updated: 2026-04-11
-sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, From Hierarchy to Intelligence.md]
+updated: 2026-04-12
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, From Hierarchy to Intelligence.md, Your harness, your memory.md]
 tags: [overview]
 ---
 
@@ -13,13 +13,15 @@ This wiki tracks the emerging landscape of **AI-native development** — buildin
 
 ## Current State
 
-The wiki draws on three sources:
+The wiki draws on four sources:
 
 1. **[[Building Claude Code with Boris Cherny]]** — Pragmatic Engineer podcast with the creator of [[Claude Code]] at [[Anthropic]]. The most detailed first-person account of a fully AI-native engineering workflow inside a frontier lab — including concrete numbers (80% of code AI-written, 20–30 PRs/day, zero hand-written code) and architectural decisions (abandoning RAG for [[Agentic Search]], [[Prototyping Over PRDs]]).
 
 2. **[[Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI]]** — No Priors podcast with one of the most credible voices in AI. Provides independent external validation of the AI-native workflow pattern, plus original frameworks: [[AutoResearch]] (autonomous ML experimentation), [[Claws]] (persistent autonomous agents), [[Token Throughput]] as the new productivity metric, and a vision for the trajectory from digital to physical AI.
 
 3. **[[From Hierarchy to Intelligence]]** — [[Jack Dorsey]]'s manifesto on replacing organizational hierarchy with AI at [[Block]]. Extends the AI-native thesis from individual developer workflow to company-wide organizational design. Argues hierarchy is an [[Hierarchy as Information Routing|information routing protocol]] constrained by human span-of-control limits for 2,000 years, and that AI can finally break this constraint through [[World Model (Organizational)|world models]] and an [[Intelligence Layer]].
+
+4. **[[Your harness, your memory (Harrison Chase)]]** — [[Harrison Chase]] ([[LangChain]] CEO) on the relationship between [[Agent Harness|agent harnesses]] and [[Agent Memory]], arguing that closed harnesses create dangerous [[Memory Lock-In|vendor lock-in]] because memory is inseparable from the harness. The first source to introduce a critical external perspective on the infrastructure layer — not just how agents are used, but who owns what they learn.
 
 The first two sources are strikingly convergent: Boris Cherny (inside Anthropic) and Andrej Karpathy (independent, using multiple tools) independently describe the same fundamental shift — humans no longer write code; they orchestrate agents in parallel. The third source extends this pattern to the organizational level: if AI can replace individual code authorship, it can also replace the information routing that justifies management hierarchy.
 
@@ -52,6 +54,9 @@ Both sources agree: strong opinions about languages and frameworks are losing va
 ### Education is being redirected through agents
 [[Education Through Agents]]: teachers explain to agents; agents explain to humans. Documentation shifts from HTML for humans to markdown for agents. "I'm not explaining to people anymore."
 
+### The harness layer is permanent — and politically contested
+[[Harrison Chase]] argues that [[Agent Harness|agent harnesses]] are not going away — even [[Claude Code]] has 512k lines of harness code. But who controls the harness controls [[Agent Memory]], and memory is what makes agents personalized, sticky, and defensible. This introduces the first structural tension in the wiki: [[Anthropic]] builds the best-documented AI-native workflow, but [[LangChain]] argues that workflow is a [[Memory Lock-In|lock-in trap]] because the harness is closed and the memory is non-transferable. The counter-argument: tight model-harness integration may produce a better product, and Claude Code's local-first design (CLAUDE.md, local memory files) is more transparent than Chase acknowledges.
+
 ### From individual workflow to organizational design
 [[Jack Dorsey]]'s [[From Hierarchy to Intelligence]] extends the AI-native thesis from how individuals work to how companies are structured. [[Block]] is attempting to replace the management hierarchy — an [[Hierarchy as Information Routing|information routing protocol]] unchanged for 2,000 years — with a [[Company as Intelligence|company organized as an intelligence]]. Two [[World Model (Organizational)|world models]] (company + customer) replace managers' contextual knowledge. An [[Intelligence Layer]] composes atomic capabilities into proactive customer solutions, replacing the PM-driven roadmap. Three roles (ICs, DRIs, player-coaches) replace the traditional management pyramid. This is the logical extension of the workflow revolution: if AI can replace code authorship, it can replace the coordination layer too.
 
@@ -67,6 +72,9 @@ Both sources agree: strong opinions about languages and frameworks are losing va
 - Can [[Block]]'s [[Company as Intelligence]] model survive contact with reality? What breaks first?
 - Does the organizational intelligence model generalize beyond fintech, where transaction data provides uniquely rich signal?
 - What governance layer prevents the [[Intelligence Layer]] from composing harmful or unwanted solutions?
+- Is [[Memory Lock-In]] a real structural risk, or does the better developer experience of integrated systems justify the trade-off?
+- Will open standards (agents.md, skills) create enough interoperability to make harness switching practical, or will memory formats fragment?
+- How does [[Agent Memory]] evolve as it matures past its "infancy" — do common abstractions emerge that make memory portable?
 
 ## Thesis (Evolving)
 
@@ -77,3 +85,5 @@ The pattern operates at two levels. At the **individual level**: [[Claws]] that 
 The economic trajectory follows [[Jevons Paradox]]: cheaper software production creates more demand, not less. The capability trajectory follows [[Digital-Physical Interface]]: digital first (fast), then sensors/actuators (medium), then full physical (slow, big). The intelligence trajectory faces [[Jaggedness]]: brilliant on-rails, mediocre off-rails, with [[Model Speciation]] as the potential structural response. The organizational trajectory follows [[Company as Intelligence]]: if AI is just cost optimization, you get absorbed; the durable advantage is compounding understanding.
 
 The historical parallel remains [[The Printing Press Analogy]]: scribes became authors; the market for literature exploded. Engineers will become orchestrators; the market for software will explode. And as [[Jack Dorsey]] argues, [[Hierarchy as Information Routing|hierarchy]] — the organizational form that has governed every large institution for 2,000 years — may finally have an alternative. But as Karpathy notes, if you're not pushing the frontier of what's possible, "everything is [[Skill Issue]]."
+
+A new structural tension has emerged: **who owns the infrastructure layer?** [[Harrison Chase]] ([[LangChain]]) argues that [[Agent Harness|agent harnesses]] are permanent, that [[Agent Memory]] is inseparable from the harness, and that closed harnesses create [[Memory Lock-In]] that model providers ([[Anthropic]], [[OpenAI]]) are incentivized to exploit. The open harness movement ([[Deep Agents]], [[OpenClaw]], [[Letta]]) positions itself as the alternative. But the counter-argument is real: tight model-harness integration (as in [[Claude Code]]) may produce a better developer experience, and the lock-in may be a rational trade. This is not yet resolved — and it may be the defining political question of the agent era.

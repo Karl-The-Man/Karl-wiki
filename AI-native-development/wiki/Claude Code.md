@@ -2,8 +2,8 @@
 type: entity
 title: Claude Code
 created: 2026-04-10
-updated: 2026-04-11
-sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
+updated: 2026-04-12
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, Your harness, your memory.md]
 tags: [tool, anthropic, agentic-ai, coding]
 ---
 
@@ -75,6 +75,15 @@ Safety uses a [[Swiss Cheese Model (Safety)|Swiss cheese model]] with multiple l
 He describes a feedback loop where he tries to "earn its praise" — when he gives a half-baked idea, Claude responds mildly; when the idea is genuinely good, Claude rewards it more. This contrasts with [[Codex]]'s dry, disengaged personality and ChatGPT's excessive sycophancy.
 
 Karpathy also notes he uses Claude Code alongside [[Codex]], switching between them to maximize [[Token Throughput]] — using one when the other's subscription is exhausted.
+
+## As Agent Harness
+
+[[Harrison Chase]] ([[LangChain]]) cites Claude Code as a prime example of an [[Agent Harness]] — and evidence that harnesses are not going away. When Claude Code's source was leaked, it contained **512k lines of code**. Chase's point: "Even the makers of the best model in the world are investing heavily in harnesses."
+
+However, Chase also uses Claude Code as an example of [[Memory Lock-In]] risk. As a closed-source harness tied to a single model provider, it represents what he calls a "Level 2" lock-in scenario — the harness interacts with [[Agent Memory]] in ways that are opaque and non-transferable.
+
+> [!note] Counter-argument
+> Claude Code's memory system is arguably more transparent than Chase implies. CLAUDE.md files, session memory, and the compaction system are local and inspectable. The lock-in concern is real for server-side features, but the local-first design mitigates it for much of the memory layer.
 
 ## Key Models
 

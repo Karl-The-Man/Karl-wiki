@@ -2,8 +2,8 @@
 type: concept
 title: Reasoning by Analogy
 created: 2026-04-10
-updated: 2026-04-10
-sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md, How to Think for Yourself.md]
+updated: 2026-04-12
+sources: [elon-musk-on-first-principles.pdf, Jensen Huang on How to Use First-Principles Thinking to Drive Decisions.md, How to Think for Yourself.md, Cargo Cult Science - Richard Feynman (1974).md]
 tags: [epistemology, reasoning, cognitive-bias]
 ---
 
@@ -60,3 +60,11 @@ He also identifies analogical reasoning in organizational design — copying con
 [[Paul Graham]] extends the concept beyond engineering into epistemology. [[Conventional-Mindedness]] is reasoning by analogy applied to *beliefs* rather than to products: adopting ideas because others hold them, just as one might copy a competitor's design. "It genuinely feels to them as if they make up their own minds about everything. It's just a coincidence that their beliefs are identical to their peers'." *(How to Think for Yourself.md)*
 
 Graham identifies [[Intellectual Fashion]] as the propagation mechanism — ideas spread through groups like clothing trends, creating crowded consensus territory where novelty is impossible. The antidote is the same as in engineering: decompose to what you independently know to be true ([[First Principles Thinking]]), rather than defaulting to what the group believes.
+
+## Feynman's Extension: Analogy Applied to Methodology
+
+[[Richard Feynman]] identifies a particularly insidious form of reasoning by analogy: imitating the *form* of rigorous inquiry without understanding its *substance*. He calls this [[Cargo Cult Science]] — like South Sea islanders building bamboo control towers to attract cargo planes, researchers in education, criminal justice, and parapsychology adopt the visible trappings of science (experiments, statistics, peer review) while lacking the essential ingredient: [[Scientific Integrity]]. *(Cargo Cult Science, 1974)*
+
+The Millikan effect is a case study of analogy-based reasoning corrupting even physics: after Millikan measured electron charge, subsequent experimenters anchored on his authority, unconsciously discarding results that deviated too far from his value. They reasoned from *his precedent* rather than from *their data* — exactly the trap Musk warns about in engineering.
+
+Feynman also describes Mr. Young's 1937 rat experiment as the anti-analogy exemplar: Young refused to accept precedent's assumptions about what controlled rat behavior, and systematically eliminated every possible cue until he found the real one (floor sound). The field then ignored his foundational work and went right on running rats the old way — reasoning by analogy from previous experiments rather than from Young's first-principles methodology.

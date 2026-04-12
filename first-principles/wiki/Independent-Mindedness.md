@@ -2,8 +2,8 @@
 type: concept
 title: Independent-Mindedness
 created: 2026-04-10
-updated: 2026-04-10
-sources: [How to Think for Yourself.md]
+updated: 2026-04-12
+sources: [How to Think for Yourself.md, Cargo Cult Science - Richard Feynman (1974).md]
 tags: [epistemology, psychology, reasoning, creativity]
 ---
 
@@ -64,6 +64,17 @@ There may be a Dunning-Kruger phenomenon: "the most conventional-minded people a
 
 Graham's framework explains the *psychological substrate* that makes [[First Principles Thinking]] possible. Musk's method — decompose to axioms, reason upward, reject convention — requires all three components: truth-fastidiousness (to identify real axioms), resistance (to ignore "everyone knows"), and curiosity (to explore the space that opens up). Graham doesn't use the phrase "first principles," but his "Is that true?" protocol is first-principles reasoning applied to everyday beliefs.
 
+## Feynman's Closing Wish: Freedom to Maintain Integrity
+
+[[Richard Feynman]] closes his "Cargo Cult Science" speech with what amounts to an institutional analysis of independent-mindedness:
+
+> "So I have just one wish for you — the good luck to be somewhere where you are free to maintain the kind of integrity I have described, and where you do not feel forced by a need to maintain your position in the organization, or financial support, or so on, to lose your integrity."
+> *(Cargo Cult Science, 1974)*
+
+This adds an important dimension to Graham's analysis. Graham focuses on the *internal* components of independent-mindedness (truth, resistance, curiosity). Feynman focuses on the *external* conditions: institutional pressure to produce results, funding dependency, career incentives — all of which can erode integrity even in people who possess the disposition. The Millikan effect and the National Accelerator Laboratory examples show independent-minded scientists capitulating to institutional [[Conventional-Mindedness]].
+
+Feynman's [[Scientific Integrity]] can be seen as a *practice of independent-mindedness* — a set of habits that protect the disposition from institutional erosion. Graham tells you *what to be*; Feynman tells you *what to do* to stay that way under pressure.
+
 ## Related Concepts
 
 - [[Conventional-Mindedness]] — the opposite end of the spectrum
@@ -73,3 +84,6 @@ Graham's framework explains the *psychological substrate* that makes [[First Pri
 - [[Philosophy of Curiosity]] — maps to Graham's third component
 - [[Reasoning by Analogy]] — the reasoning mode that conventional-mindedness defaults to
 - [[Wishful Thinking]] — the bias that uncalibrated belief enables
+- [[Scientific Integrity]] — the procedural practice that protects independent-mindedness under institutional pressure (Feynman)
+- [[Cargo Cult Science]] — what institutions produce when independent-mindedness is absent (Feynman)
+- [[Richard Feynman]] — freedom to maintain integrity as the institutional prerequisite

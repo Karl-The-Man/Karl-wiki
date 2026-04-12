@@ -2,8 +2,8 @@
 type: entity
 title: Anthropic
 created: 2026-04-10
-updated: 2026-04-11
-sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
+updated: 2026-04-12
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, Your harness, your memory.md]
 tags: [company, ai-safety, claude]
 ---
 
@@ -32,6 +32,19 @@ AI safety research lab and maker of Claude. Described by [[Boris Cherny]] as a "
 - This mission drove the decision to release [[Claude Code]] externally
 - Cannot see user data due to enterprise privacy commitments; significant engineering goes into privacy-preserving logging
 - Safety framed as [[Swiss Cheese Model (Safety)|Swiss cheese model]] — multiple overlapping layers, "counting nines"
+
+## External Criticism: Harness Lock-In
+
+[[Harrison Chase]] ([[LangChain]]) cites Anthropic as the most aggressive example of [[Memory Lock-In]] in the agent ecosystem:
+
+- **Server-side compaction** — storing conversation state on Anthropic's servers, preventing model switching while preserving thread history
+- **[[Claude Agent SDK]]** — a closed harness whose memory interactions are "unknown and non-transferable"
+- **Claude Managed Agents** — Chase calls this the "worst" scenario: the entire harness *and* long-term memory behind a proprietary API, with "zero ownership or visibility"
+
+Chase argues Anthropic is "incredibly incentivized" to do this because [[Agent Memory]] creates lock-in that model quality alone cannot.
+
+> [!note] Context
+> This critique comes from the CEO of [[LangChain]], whose business depends on the harness layer remaining independent of model providers. The concerns are directionally valid — platform lock-in is real — but the framing reflects competitive positioning. Anthropic's local-first design choices (CLAUDE.md, local memory files, configurable hooks) are not acknowledged.
 
 ## Key People (from sources)
 
