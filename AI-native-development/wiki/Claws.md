@@ -2,8 +2,8 @@
 type: concept
 title: Claws
 created: 2026-04-11
-updated: 2026-04-11
-sources: [Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
+updated: 2026-04-13
+sources: [Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, Thin Harness, Fat Skills.md]
 tags: [agents, autonomy, persistence, paradigm]
 ---
 
@@ -56,6 +56,14 @@ Karpathy acknowledges that today, building claws requires vibe-coding and techni
 
 > "This kind of stuff should be free in a year or two or three. There's no vibe-coding involved. This is trivial. This is table stakes."
 
+## Skills on Cron: Claws by Another Name
+
+[[Garry Tan]]'s [[Thin Harness, Fat Skills (Garry Tan)|"Thin Harness, Fat Skills"]] describes a pattern that is functionally a claw: [[Skill Files]] running on a cron schedule, operating autonomously, producing results while you sleep.
+
+In the YC Startup School case study, an `/enrich-founder` skill runs nightly across 6,000 founder profiles — pulling sources, running enrichments, [[Diarization|diarizing]] each profile. An `/improve` skill reads post-event surveys and rewrites matching skills based on feedback. These are claws in Karpathy's sense: persistent, looping, autonomous.
+
+Tan's framing adds a creation pathway: every recurring task should be codified into a skill, and if it should run automatically, put on a cron. The claw isn't designed top-down — it *emerges* from the discipline of never doing one-off work.
+
 ## Related Concepts
 
 - [[Agentic Web]] — the industry reconfiguration claws point toward
@@ -63,3 +71,5 @@ Karpathy acknowledges that today, building claws requires vibe-coding and techni
 - [[OpenClaw]] — the leading open-source claw project
 - [[AutoResearch]] — a specialized claw for ML experimentation
 - [[Token Throughput]] — claws maximize throughput by removing you from the loop
+- [[Skill Files]] — the building blocks of claws in Tan's model
+- [[Thin Harness, Fat Skills]] — the architecture that produces claws as a natural consequence

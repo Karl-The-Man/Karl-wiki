@@ -2,8 +2,8 @@
 type: concept
 title: Education Through Agents
 created: 2026-04-11
-updated: 2026-04-11
-sources: [Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
+updated: 2026-04-13
+sources: [Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, Thin Harness, Fat Skills.md]
 tags: [education, agents, future]
 ---
 
@@ -45,8 +45,16 @@ The **creative reduction** — the few bits of insight that produce a uniquely s
 - If agents understand the documentation, they can explain all parts of it to any user
 - This is "redirection through agents" — an intermediate layer between creator and consumer
 
+## Skill Files as the New Medium
+
+[[Garry Tan]]'s [[Skill Files]] concept gives concrete form to Karpathy's vision. When Karpathy says he'd write a "skill" that scripts a curriculum, Tan has the architecture: a markdown file with steps, parameters, and judgment encoded. The skill-as-method-call pattern (same procedure, different arguments) maps directly to Karpathy's idea of an agent adapting explanation to the individual — the skill defines the process, the invocation adapts to the learner.
+
+Tan's framing: "This is software design, using markdown as the programming language and human judgment as the runtime." This is exactly what Karpathy describes when he says his job is now creating the artifact (the creative reduction) and writing skills that agents use to teach it.
+
 ## Related Concepts
 
 - [[microGPT]] — the case study for education through agents
 - [[Agentic Web]] — documentation for agents is part of the broader agent-first shift
 - [[Generalist vs Specialist]] — agents handle the specialist explanation; humans contribute the generalist insight
+- [[Skill Files]] — the concrete implementation of education-through-agents
+- [[Resolvers]] — how the right educational skill gets loaded for the right learner

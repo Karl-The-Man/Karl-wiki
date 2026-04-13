@@ -2,8 +2,8 @@
 type: concept
 title: Agent Memory
 created: 2026-04-12
-updated: 2026-04-12
-sources: [Your harness, your memory.md]
+updated: 2026-04-13
+sources: [Your harness, your memory.md, Thin Harness, Fat Skills.md]
 tags: [memory, agents, context, architecture]
 ---
 
@@ -63,10 +63,21 @@ Chase acknowledges memory is "in its infancy":
 > [!note] Contrast with Claws
 > [[OpenClaw]]'s "sophisticated memory system" ([[Andrej Karpathy]]'s words) and [[Claws]] more broadly represent the frontier of what agent memory looks like when taken seriously — going well beyond default context compaction toward persistent, personality-infused recall.
 
+## Memory vs. Skills: Where Does Value Live?
+
+[[Garry Tan]] introduces a competing frame in [[Thin Harness, Fat Skills (Garry Tan)|"Thin Harness, Fat Skills"]]. While Chase and Wooders see memory as the core value layer (and therefore the lock-in risk), Tan argues the durable value lives in [[Skill Files]] — portable markdown procedures — not in accumulated memory. His harness is deliberately thin; context management uses [[Resolvers]] to load the right document on demand rather than building up persistent state.
+
+Tan's 20,000-line CLAUDE.md is a cautionary tale about memory-like context: it degraded the model's attention until he replaced it with ~200 lines of pointers. The lesson: less persistent context, more just-in-time loading.
+
+The distinction matters: **memory is what the agent remembers; skills are what the agent knows how to do.** Both are valuable, but they have different portability profiles. Skills (markdown files) are inherently portable. Memory (managed by the harness) may not be. See [[Memory Lock-In]].
+
 ## Related Concepts
 
-- [[Agent Harness]] — memory is inseparable from the harness
+- [[Agent Harness]] — memory is inseparable from the harness (per Chase)
 - [[Memory Lock-In]] — the risk when memory ownership is ceded
+- [[Skill Files]] — the competing value layer (portable, harness-independent)
+- [[Resolvers]] — just-in-time context loading as an alternative to persistent memory
+- [[Diarization]] — a technique that produces structured memory content
 - [[Claws]] — persistent agents where memory is central
 - [[Uncorrelated Context Windows]] — a harness strategy for fresh short-term memory
 - [[Agentic Search]] — one way agents access information (external memory)

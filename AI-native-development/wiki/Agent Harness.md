@@ -2,8 +2,8 @@
 type: concept
 title: Agent Harness
 created: 2026-04-12
-updated: 2026-04-12
-sources: [Your harness, your memory.md]
+updated: 2026-04-13
+sources: [Your harness, your memory.md, Thin Harness, Fat Skills.md]
 tags: [architecture, agents, infrastructure]
 ---
 
@@ -58,10 +58,32 @@ Chase traces three generations, each matching model capability:
 > [!note] Contrast with Boris Cherny
 > [[Boris Cherny]]'s account of [[Claude Code]]'s architecture tells the same evolution story from the inside: it started as "a simple chatbot hitting the API," then adding tool use was the pivotal moment. The harness grew *because* the model became capable enough to use it.
 
+## The Thickness Debate
+
+The wiki's central architectural tension: **how thick should the harness be?**
+
+### Chase: The Harness Is the Product
+
+[[Harrison Chase]] points to [[Claude Code]]'s 512k lines as evidence that harnesses are substantial, permanent infrastructure. Memory is inseparable from the harness. Choosing a harness is choosing a memory system. The key political question is ownership: open vs. closed. See [[Memory Lock-In]].
+
+### Tan: Keep the Harness Thin
+
+[[Garry Tan]] argues the opposite: the harness should be ~200 lines. It does four things — runs the model in a loop, reads/writes files, manages context, enforces safety — and nothing else. The value lives in [[Skill Files]] (portable markdown procedures) on top and deterministic tooling on the bottom. See [[Thin Harness, Fat Skills]].
+
+The anti-pattern, per Tan: a fat harness with thin skills. 40+ tool definitions eating half the context window. God-tools with multi-second MCP round-trips. Three times the tokens, latency, and failure rate.
+
+> [!note] The Paradox
+> Tan himself uses Claude Code (512k lines) as his harness. The resolution: 200 lines describes the *user-built* harness layer. Claude Code is infrastructure beneath it. The question is whether your custom value should accumulate in portable skill files or in the harness's proprietary memory system.
+
+Both agree: the harness layer is permanent. They disagree on its optimal thickness and where defensible value should accumulate.
+
 ## Related Concepts
 
-- [[Agent Memory]] — inextricably tied to the harness
+- [[Agent Memory]] — inextricably tied to the harness (per Chase)
 - [[Memory Lock-In]] — the risk of closed harnesses
+- [[Thin Harness, Fat Skills]] — the counter-architecture
+- [[Skill Files]] — where value lives in Tan's model
+- [[Resolvers]] — context routing that keeps the harness thin
 - [[The Bitter Lesson]] — the model needs tools and a system to manage them
 - [[Claws]] — harnesses taken to their logical conclusion: persistent, autonomous entities
 - [[Agentic Search]] — a concrete example of how the harness provides tools to the model

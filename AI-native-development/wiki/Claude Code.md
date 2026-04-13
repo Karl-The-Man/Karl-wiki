@@ -2,8 +2,8 @@
 type: entity
 title: Claude Code
 created: 2026-04-10
-updated: 2026-04-12
-sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, Your harness, your memory.md]
+updated: 2026-04-13
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, Your harness, your memory.md, Thin Harness, Fat Skills.md]
 tags: [tool, anthropic, agentic-ai, coding]
 ---
 
@@ -84,6 +84,12 @@ However, Chase also uses Claude Code as an example of [[Memory Lock-In]] risk. A
 
 > [!note] Counter-argument
 > Claude Code's memory system is arguably more transparent than Chase implies. CLAUDE.md files, session memory, and the compaction system are local and inspectable. The lock-in concern is real for server-side features, but the local-first design mitigates it for much of the memory layer.
+
+## As Resolver System
+
+[[Garry Tan]] ([[Thin Harness, Fat Skills (Garry Tan)|"Thin Harness, Fat Skills"]]) identifies Claude Code as having a built-in [[Resolvers|resolver]]: every skill has a `description` field, and the model matches user intent to skill descriptions automatically. You never have to remember that `/ship` exists — the description *is* the resolver.
+
+Tan's cautionary tale about his 20,000-line CLAUDE.md is relevant here: the model's attention degraded under the weight of all that front-loaded context. The fix was ~200 lines of pointers, with resolvers loading the right document on demand. This illustrates a practical lesson for Claude Code users: keep CLAUDE.md as a routing layer, not an encyclopedia.
 
 ## Key Models
 

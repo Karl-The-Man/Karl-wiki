@@ -2,8 +2,8 @@
 type: concept
 title: The Bitter Lesson
 created: 2026-04-10
-updated: 2026-04-11
-sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md]
+updated: 2026-04-13
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, Thin Harness, Fat Skills.md]
 tags: [principle, architecture, ai-philosophy]
 ---
 
@@ -45,6 +45,10 @@ When Claude Code was given a bash tool, "the model just wants to use tools" — 
 ### Recursive Self-Improvement
 [[Recursive Self-Improvement]] is the Bitter Lesson taken to its logical conclusion: LLMs improving LLMs, with human researchers contributing "ideas to a queue" rather than directly running experiments.
 
+### Latent vs. Deterministic
+
+[[Garry Tan]]'s [[Latent vs Deterministic]] boundary adds precision to the Bitter Lesson: get out of the model's way *in latent space* (judgment, synthesis, pattern recognition), but don't put deterministic work (arithmetic, combinatorial optimization, SQL) there. An LLM can seat 8 people accounting for personality; ask it to seat 800 and it hallucates a plausible-looking but wrong chart. The Bitter Lesson says let the model do its thing — [[Latent vs Deterministic|latent vs. deterministic]] says *in the right domain*.
+
 ## Related Concepts
 
 - [[Agentic Search]] — concrete example of the Bitter Lesson in action
@@ -52,3 +56,5 @@ When Claude Code was given a bash tool, "the model just wants to use tools" — 
 - [[Agent Teams]] — swarms as a Bitter Lesson application
 - [[AutoResearch]] — the Bitter Lesson applied to ML research
 - [[Recursive Self-Improvement]] — the Bitter Lesson's ultimate endpoint
+- [[Latent vs Deterministic]] — the design boundary that adds precision to the Bitter Lesson
+- [[Thin Harness, Fat Skills]] — keep the harness thin, let skills (the model's domain) be fat

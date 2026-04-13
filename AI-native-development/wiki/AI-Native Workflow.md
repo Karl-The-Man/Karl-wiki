@@ -2,8 +2,8 @@
 type: concept
 title: AI-Native Workflow
 created: 2026-04-10
-updated: 2026-04-11
-sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, From Hierarchy to Intelligence.md]
+updated: 2026-04-13
+sources: [Building-Claude-Code-with-Boris-Cherny.md, Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of Al.md, From Hierarchy to Intelligence.md, Thin Harness, Fat Skills.md]
 tags: [methodology, workflow, ai-native]
 ---
 
@@ -88,6 +88,14 @@ The AI-native workflow pattern doesn't stop at individuals. [[Jack Dorsey]]'s [[
 
 Both share the same logic: AI takes over the coordination function that humans used to perform. At the individual level, it replaces the developer's manual coding. At the organizational level, it replaces [[Hierarchy as Information Routing|hierarchy's information routing]]. See [[Company as Intelligence]].
 
+## The Compounding Workflow: Never Do One-Off Work
+
+[[Garry Tan]] ([[Thin Harness, Fat Skills (Garry Tan)|"Thin Harness, Fat Skills"]]) adds a discipline layer to the AI-native workflow: **every recurring task must become a [[Skill Files|skill file]].**
+
+> If I ask you to do something and it's the kind of thing that will need to happen again, you must: do it manually the first time on 3 to 10 items. Show me the output. If I approve, codify it into a skill file. If it should run automatically, put it on a cron. The test: if I have to ask you for something twice, you failed.
+
+This transforms the workflow from *productive* to *compounding*. Each session doesn't just produce output — it produces a permanent capability upgrade. Skills never degrade, run at 3 AM, and automatically improve with each new model. Tan claims this discipline is how you reach [[Steve Yegge]]'s 100x productivity multiplier.
+
 ## Related Concepts
 
 - [[Prototyping Over PRDs]] — a product development practice enabled by this workflow
@@ -99,3 +107,5 @@ Both share the same logic: AI takes over the coordination function that humans u
 - [[Macro Actions]] — the unit of work
 - [[Claws]] — the next evolution: persistent autonomous agents
 - [[Company as Intelligence]] — the organizational-level extension of this workflow
+- [[Skill Files]] — the mechanism for compounding capability
+- [[Thin Harness, Fat Skills]] — the architecture for the compounding workflow

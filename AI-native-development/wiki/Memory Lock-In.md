@@ -2,8 +2,8 @@
 type: concept
 title: Memory Lock-In
 created: 2026-04-12
-updated: 2026-04-12
-sources: [Your harness, your memory.md]
+updated: 2026-04-13
+sources: [Your harness, your memory.md, Thin Harness, Fat Skills.md]
 tags: [lock-in, memory, vendor, risk, open-source]
 ---
 
@@ -55,9 +55,19 @@ Chase advocates for open harnesses where:
 > [!warning] Consider the source
 > This framework is articulated by the CEO of [[LangChain]], whose business model depends on the harness layer remaining independent of model providers. The argument is sound, but the motivation is commercial. It's also worth noting that tight integration between harness and model can produce better developer experiences — lock-in may be a rational trade in some cases.
 
+## The "Fat Skills" Counter-Argument
+
+[[Garry Tan]] ([[Thin Harness, Fat Skills (Garry Tan)|"Thin Harness, Fat Skills"]]) challenges the premise of the lock-in argument from a different angle than the "tight integration is worth it" trade-off:
+
+If the valuable artifacts in your system are [[Skill Files]] — portable markdown procedures — rather than memory accumulated inside the harness, then harness lock-in matters less. Skills are just files. They work with any harness. The value is inherently portable.
+
+This doesn't fully resolve the tension. Cross-session memory (what [[Harrison Chase|Chase]] worries about) and skill files (what [[Garry Tan|Tan]] values) are different things. You can have portable skills and still lose your memory when switching harnesses. But it does reframe the question: **is the durable value in what the agent remembers, or in what it knows how to do?**
+
 ## Related Concepts
 
 - [[Agent Memory]] — what gets locked in
 - [[Agent Harness]] — the layer that controls memory
 - [[Deep Agents]] — the open-source response
+- [[Thin Harness, Fat Skills]] — the counter-architecture where value lives in portable skills
+- [[Skill Files]] — the portable alternative to harness-bound memory
 - [[Jevons Paradox]] — cheaper software creates more demand; memory lock-in is how providers capture value from that expanded demand
